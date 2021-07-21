@@ -13,4 +13,7 @@
 >### 3. txt 라벨 파일들 중에 데이터 클래스가 None인 라벨을 지우고, 지운 라벨 데이터를 새로운 폴더에 모으는 코드
 >### LabelParsing.py
 
+>### 4. bounding box 정보가 주어지면 yolo txt형식의 라벨로 변환해 주는 코드
+>### https://velog.io/@parksh089g/yolov5-custom-train-2
+>### https://velog.io/@parksh089g/yolov5-custom-train-3
 추후 계속 업데이트 할 예정
