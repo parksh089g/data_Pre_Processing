@@ -56,5 +56,5 @@ for xml_file in xml_list:
     num += 1
 
 print("finished")
-print("sucess:"+str(num)+"//warning:"+str(len(waring)))
+print("sucess:"+str(num)+"//warning:"+str(len(warning)))
 print(warning)
