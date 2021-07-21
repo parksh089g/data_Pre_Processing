@@ -4,7 +4,7 @@
 
 >### 1. 여러개의 파일 트리가 있을 때, 하위 데이터(ex. jpg,xml) 등 특정 파일들 한 곳에 모으는 코드
 >### moveFile.py
->58번째 줄에 ```python f.find_file_path(type='xml')``` 에서 원하는 'jpg','txt' 등의 형식을 줄 수 있음. 
+>58번째 줄에 ```f.find_file_path(type='xml')``` 에서 원하는 'jpg','txt' 등의 형식을 줄 수 있음. 
 
 >### 2. xml 파일들에 대한 이름을 수정하는 코드(라벨과 이미지 이름을 맞추기 위해)
 >### changeName.py(annotation의 file명을 xml file명과 일치하도록 변경하는 코드)
