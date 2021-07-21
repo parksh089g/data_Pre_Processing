@@ -5,9 +5,9 @@ import xml.etree.ElementTree as ET
 import re
 import shutil
  
-targetDir = r"D:/차량및보행자데이터셋/도로주행영상/압축푼거/labels/test"
+targetDir = r"D:/차량및보행자데이터셋/도로주행영상/압축푼거/labels/train"
 num = 1
-
+warning=[]
 ##targetDir에서 .xml파일 이름들 리스트로 가져오기
 file_list = os.listdir(targetDir)
 xml_list = []
@@ -30,6 +30,8 @@ for xml_file in xml_list:
     
 
     if modify_filename == xml_file:
+        print("[" + str(num) + "]" + target_path + "[already modified]")
+        num += 1
         continue
 
     ###이부분은 제 데이터 문제로 넣은 부분이므로 사용하실때 바꿔주시거나 없애주시면 되겠습니다.    
@@ -40,8 +42,9 @@ for xml_file in xml_list:
         modify=os.path.join(targetDir,modify_filename2) #바꿀 파일경로
         targetXML.close()
         os.rename(target_path,modify)
-        print("[" + str(num) + "]" + modify + "[success]")
+        print("[" + str(num) + "]" + modify + "[success/warning]")
         num += 1
+        warning.append(modify)
         continue
     #######################
 
@@ -53,3 +56,5 @@ for xml_file in xml_list:
     num += 1
 
 print("finished")
+print("sucess:"+str(num)+"//warning:"+str(len(waring)))
+print(warning)
