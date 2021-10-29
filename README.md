@@ -20,4 +20,7 @@
 >### 5. yolo형식으로 바꿔주는 코드
 >### https://deepbaksuvision.github.io/Modu_ObjectDetection/posts/02_02_Convert2Yolo.html
 
+>### 6. json형식을 yolo형식으로 바꿔주는 코드
+>### json2yolo.py
+
 추후 계속 업데이트 할 예정
