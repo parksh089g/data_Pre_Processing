@@ -25,6 +25,7 @@
 
 >### 7. 기존의 라벨링된 데이터를 특정 라벨만 쓰기 위해 전처리 해주는 코드
 >### change_labelnum.py
+>### change_labelnum2.py (이걸 사용할 것)
 
 >### 8. track0091[01].txt와 같은 형식을 yolo 라벨로 바꿔주는 코드
 >### label_processing.py
