@@ -32,4 +32,7 @@
 
 >### 9. yolov5 라벨을 yolov3 라벨로 바꿔주는 코드 
 >### v5_to_v3.py
+
+>### 10. 데이터셋들의 manifest를 만드는 코드
+>### changeName_txt_for_manifest.py
 추후 계속 업데이트 할 예정
